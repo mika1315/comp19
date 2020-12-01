@@ -2,14 +2,7 @@
 Implementation of the compiler using OCaml that outputs Intel's machine language.
 
 ## Process
-```mermaid
-graph LR
-A[Lexical analysis] --> B[Parsing]
-B --> C[Type inference]
-C --> D[Optimization]
-D --> E[Register allocation]
-E --> F[Generate the codes]
- ```
+![スクリーンショット 2020-12-01 22 49 39](https://user-images.githubusercontent.com/51024485/100749123-9306d700-3427-11eb-9570-72bbd0044616.png)
 
 - Lexical analysis
 The process of converting a sequence of characters (program written by users) into a sequence of tokens
